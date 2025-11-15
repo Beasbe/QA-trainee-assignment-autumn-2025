@@ -35,8 +35,3 @@
    # Только smoke тесты
    pytest -m smoke
    ```
-4. Запуск с отчетом:
-
-   ```bash
-   pytest --html=report.html --self-contained-html
-   ```
