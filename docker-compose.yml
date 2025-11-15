@@ -1,0 +1,6 @@
+services:
+  api-tests:
+    build: .
+    container_name: api-tests-runner
+    stdin_open: true
+    tty: true
